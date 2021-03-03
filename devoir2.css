@@ -1,0 +1,381 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+/*.B{
+	background-image: url('spice-shop-27.png');
+}*/
+.B{
+	background:url('th.jpg');
+}
+.nav2{
+		color: green;
+	
+}
+.nav1{
+	width: 100%;
+	background-color: green;
+	position: fixed;
+}
+.nav1 .max-width{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.menu li{
+	display: inline-block;
+}
+.menu  a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	text-decoration: none;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.menu  a:hover{
+	background-color: black;
+}
+
+
+.folio a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+}
+.folio a span{
+	color: #000;
+
+}
+/*----------------1er Section----------------------------*/
+.home1{
+	height: 800px;
+	background:url('home2.jpg');
+	display: flex;
+}
+.home1 .max-width{
+	margin: auto 120px;
+	color: white;
+}
+.home1 .max-width .text-1{
+	font-size: 30px;
+	font-weight: 600;
+}
+.home1 .max-width .text-2{
+	color: Cyan;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.home1 .max-width .text-3{
+	
+	font-size: 50px;
+	font-weight: 500;
+}
+.home1 .max-width .text-3 span{
+	
+	color: Cyan;
+	margin-bottom: 30px;
+}
+.home1 .max-width a{
+	display: inline-block;
+	color: white;
+	background-color: Cyan;
+	font-size: 30px;
+	font-weight: 200;
+	border: 2px solid Cyan;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 30px; 
+}
+.home1 .max-width a:hover{
+	background:none; 
+}
+/*------------------------------------2eme Section------------------------------------------*/
+.about1{
+	padding: 50px 150px;
+}
+.about1 .title{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+}
+.about1 .about-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.about1 .div-left{
+	width: 45%;
+}
+.about1 .div-right{
+	width: 55%;
+}
+.about1 .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.about1 .div-right .text{
+	font-size: 30px;
+	font-weight: 600;
+}
+.about1 .div-right .text span{
+	color: crimson;
+}
+.about1 .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about1 .div-right a{
+	display: inline-block;
+	color: white;
+	background-color: Cyan;
+	font-size: 20px;
+	font-weight: 200;
+	border: 2px solid Cyan;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 30px; 
+
+}
+.about1 .div-right a:hover{
+	background: none;
+	color: Cyan; 
+}
+
+/*----------------3em section------------------------------------*/
+.home {
+	padding: 50px 150px;
+}
+.home .max-width{
+	height: 100%;
+}
+.home .content{
+	height: 100%;
+}
+.home .title{
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+.home .title span{
+	text-align: center;
+	font-size: 10px;
+	font-weight: 500;
+	color: red;
+}
+
+/* ______________premier div home______________*/
+.home .content{
+	display: flex;
+	justify-content: space-between;
+	/* flex: wrap; */
+	margin-top: 80px;
+	width: 100%;
+}
+.home  .content .divleft p{
+	color: white;
+}
+.home .content .divleft{
+	background-color: MediumSeaGreen;
+	width: 30%;
+	height: 60%;
+	 margin: 3px;
+  border: 1px solid #00FF00;
+  color: white;
+}
+.home .content .divleft img{
+	height: 100px;
+	width: 100px;
+	border-radius: 30px;
+	object-fit: cover;
+	border-color: #00FF00;
+	border:3px solid #00FF00 ;
+
+}
+.home .content .divleft:hover {
+  border: 3px solid #00FF00;
+}
+.home .divleft .text{
+	color: green;
+}
+/*____________________deuxieme div home_______________*/
+.home  .content .milieu img{
+	height: 100px;
+	width: 100px;
+	border-radius: 30px;
+	object-fit: cover;
+	border:3px solid #00FF00;
+
+}
+.home .content .milieu{
+	background-color: MediumSeaGreen;
+	width: 35%;
+	height: 60%;
+	margin: 5px;
+  border: 1px solid #00FF00;
+  color: white;
+}
+.home .content .milieu:hover{
+	border: 3px solid #00FF00;
+
+}
+.home .content .milieu p{
+	color: white;
+}
+.home .milieu .text{
+	color: green;
+}
+/*__________________troisieme div home______________________*/
+.home .content .divright{
+	background-color:MediumSeaGreen;
+	width: 30%;
+	height: 60%;
+	margin: 5px;
+  border: 1px solid #00FF00;
+  color: white;
+}
+.about .max-width{
+	margin: auto 120px;
+	display: flex;
+	
+}
+
+.home .content .divright:hover{
+	border: 3px solid #00FF00;
+
+}
+.home  .content .divright img{
+	height: 100px;
+	width: 100px;
+	border-radius: 30px;
+	object-fit: cover;
+	border-color: #00FF00;
+	border:3px solid #00FF00;
+}
+
+.home .divright .text{
+	color: green;
+}
+
+.home .content .divleft p span{
+	color: rgba(255, 99, 71, 0.6);
+}
+.home .content .divright p span{
+	color: rgba(255, 99, 71, 0.6);
+}
+.home .content .milieu p span{
+	color: rgba(255, 99, 71, 0.6);
+}
+.home .content .divright p{
+	color: white;
+}
+.home .content .divright .text{
+	color: green;
+}
+/*-----------------------------4em Section--------------------------------*/
+
+.about{
+	padding: 50px 150px;
+}
+.about .max-width{
+	height: 100%;
+}
+.about .content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	 flex-wrap:wrap;
+
+
+}
+.about .left .text1{
+	text-align: justify;
+	font-size: 20px;
+	width: 300px;
+}
+.about .right {
+	text-align: justify;
+	font-size: 10px;
+	object-fit: cover;
+}
+.about .right .put{
+	font-size: 20px;
+	font-weight: 200;
+	
+}
+.about .left .text1 .p2{
+			color:black;
+			border-color:green;
+			border-style:dotted;
+			background-color:Aqua;
+
+}
+.about .right .put .p1{
+		    color:black;
+			border-color:green;
+			border-style:dotted;
+			background-color:Aqua;
+}
+.about .left{
+	width: 50%;
+	float: left;
+	object-fit: cover;
+}
+.about .right{
+	width: 50%;
+	float: right;
+}
+
+.about .right .button-one{
+	display: inline-block;
+	color: white;
+	background-color: green;
+	font-size: 15px;
+	font-weight: 90;
+	border: 2px solid tomato;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 30px; 
+
+}
+.about .right .button{
+	display: inline-block;
+	color: white;
+	background-color: red;
+	font-size: 15px;
+	font-weight: 90;
+	border: 2px solid tomato;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 30px; 
+
+}
+.about .right a:hover{
+	background: none;
+	color: crimson; 
+}
+.about .right .des{
+			height: 100px;
+			width: 500px;
+}
+footer{
+	background-color: green;
+	color: white;
+
+	border: 2px solid white;
+}
+footer span{
+	color: red;
+}
+footer .foot{
+		height: 100%;
+}

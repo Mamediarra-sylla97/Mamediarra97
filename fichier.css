@@ -1,0 +1,43 @@
+.nav1{
+	width: 100%;
+	background-color: green;
+	position: fixed;
+}
+.nav1 .max-width{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.menu li{
+	display: inline-block;
+}
+.menu  a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	text-decoration: none;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.menu  a:hover{
+	background-color: black;
+}
+
+
+.folio a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+}
+.folio a span{
+	color: #000;
+
+}
+.sous{
+	display: none;
+	position: absolute;
+}
+.menu li:hover .sous{
+	display: block;
+}
